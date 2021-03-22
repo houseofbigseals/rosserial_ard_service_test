@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="rosserial_ard_service_test" type="service_server_run.py" name="button_test_server" output="log" respawn="false">
+        <!-- <param name="pub_freq" value="2"/> -->
+    </node>
+</launch>
